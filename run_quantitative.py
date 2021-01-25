@@ -8,7 +8,7 @@ import datetime
 from torch.utils.data import DataLoader
 from tqdm import tqdm
 from AlignedReID.aligned_reid.model.Model import Model
-from dataset import get_split, ReID_Dataset
+from dataset import get_split, ReID_Dataset, get_distance
 
 
 def test_quant():
