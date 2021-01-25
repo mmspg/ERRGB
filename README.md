@@ -1,4 +1,4 @@
-# ErrorResilientGalleryBuilding
+# Error Resilient Recurring Gallery Building (ERRGB)
 
 This is the code corresponding to the paper "Open-Set Person Re-Identification through Recurring Error Resilient Gallery Building" (Philine Witzig, Evgeniy Upenik and Touradj Ebrahimi), developed in the Multimedia Signal Processing Group (MMSPG) at École Polytechnique Fédérale de Lausanne (EPFL).
 
