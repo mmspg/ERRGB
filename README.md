@@ -48,4 +48,7 @@ python3 run_webcam_rotated.py
 ```
 This will access your webcam and write the video data to the [data](data) directory. Note that the video will be rotated by 180°, which was necessary in our particular camera setup.
 
-Please note that the code was produced for running on Google Colab. Video codecs might need to be changed depending on the system.
+Please note that the code was produced for running on Google Colab. Video codecs might need to be changed depending on the underlying operating system.
+
+## Results
+Two videos from the qualitative analysis can be viewed in the [results](results) folder.
