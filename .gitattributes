@@ -1,0 +1,2 @@
+/models/alignedReID/model_weight.pth filter=lfs diff=lfs merge=lfs -text
+/models/yolov3/** filter=lfs diff=lfs merge=lfs -text
