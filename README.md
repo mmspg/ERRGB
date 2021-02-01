@@ -1,10 +1,10 @@
 # Error Resilient Recurring Gallery Building (ERRGB)
 
-This is the code corresponding to the paper "Open-Set Person Re-Identification through Recurring Error Resilient Gallery Building" (Philine Witzig, Evgeniy Upenik and Touradj Ebrahimi), developed in the Multimedia Signal Processing Group (MMSPG) at École Polytechnique Fédérale de Lausanne (EPFL).
+This is the code corresponding to the paper "Open-Set Person Re-Identification through Error Resilient Recurring Gallery Building" (Philine Witzig, Evgeniy Upenik and Touradj Ebrahimi), developed in the Multimedia Signal Processing Group (MMSPG) at École Polytechnique Fédérale de Lausanne (EPFL).
 
 ## Abstract
 In person re-identification, people must to be correctly identified in images that come from different cameras or are captured at different points in time. In the open-set case, the above needs be achieved for persons that have not been previously observed.
-In this paper, we propose a universal method for building a multi-shot gallery of observed reference identities online, starting with an empty gallery. We perform L2-norm descriptor matching for gallery retrieval using descriptors produced by a generic closed-set re-identification system. We continuously update the multi-shot gallery by replacing outlying descriptors with newly matched descriptors. Outliers are detected using the Isolation Forest algorithm. Thus, we ensure that the gallery is resilient to erroneous assignments, leading to improved re-identification results in the open-set case.
+In this paper, we propose a universal method for building a multi-shot gallery of observed reference identities recurrently online. We perform L2-norm descriptor matching for gallery retrieval using descriptors produced by a generic closed-set re-identification system. We continuously update the multi-shot gallery by replacing outlying descriptors with newly matched descriptors. Outliers are detected using the Isolation Forest algorithm. Thus, we ensure that the gallery is resilient to erroneous assignments, leading to improved re-identification results in the open-set case.
 
 ## Requirements
 All required modules are contained in the [requirements.txt](requirements.txt).
@@ -48,4 +48,7 @@ python3 run_webcam_rotated.py
 ```
 This will access your webcam and write the video data to the [data](data) directory. Note that the video will be rotated by 180°, which was necessary in our particular camera setup.
 
-Please note that the code was produced for running on Google Colab. Video codecs might need to be changed depending on the system.
+Please note that the code was produced for running on Google Colab. Video codecs might need to be changed depending on the underlying operating system.
+
+## Results
+Two videos from the qualitative analysis can be viewed in the [results](results) folder.
