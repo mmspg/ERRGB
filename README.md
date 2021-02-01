@@ -1,7 +1,7 @@
 # Error Resilient Recurring Gallery Building (ERRGB)
 
-![Result Person ReID: three people, static](/results/qualitative/three_static.png "Result Person ReID: three people, static")
-![Result Person ReID: two people, dynamic](/results/qualitative/two_dynamic.png "Result Person ReID: two people, dynamic")
+![Result Person ReID: three people, static](/results/qualitative/three_static.png=250x "Result Person ReID: three people, static")
+![Result Person ReID: two people, dynamic](/results/qualitative/two_dynamic.png=250x "Result Person ReID: two people, dynamic")
 
 ## Abstract
 In person re-identification, people must to be correctly identified in images that come from different cameras or are captured at different points in time. In the open-set case, the above needs be achieved for persons that have not been previously observed.
