@@ -1,8 +1,8 @@
 # Error Resilient Recurring Gallery Building (ERRGB)
 
 <p float="left">
-  <img src="/results/qualitative/three_static.png" width="450" />
-  <img src="/results/qualitative/two_dynamic.png" width="450" /> 
+  <img src="/results/qualitative/three_static.png" width="400" />
+  <img src="/results/qualitative/two_dynamic.png" width="400" /> 
 </p>
 
 ## Abstract
