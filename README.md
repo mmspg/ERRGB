@@ -11,7 +11,7 @@ In this paper, we propose a universal method for building a multi-shot gallery o
 
 
 ## Try it out in Colab
-[Colab Script](https://colab.research.google.com/drive/1WNWUh4a3Ji5-SLA6Y0bXM0y1GEGAMiqU?usp=sharing)
+Test our emthod using the [Colab Script](https://colab.research.google.com/drive/1WNWUh4a3Ji5-SLA6Y0bXM0y1GEGAMiqU?usp=sharing). If you want to run the script, link your Google Drive and be careful with the required folder structure.
 
 ## Using the Code
 ### Requirements
